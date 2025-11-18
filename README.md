@@ -48,11 +48,11 @@
 <br/>
 
 ## 기술 스택(Tech Stack)
-- Framework: Next.js 14 (App Router)
+- Framework: Next.js 15 (App Router)
 - Language: TypeScript
 - Styling: TailwindCSS
 - Data Fetching: React Query
-- State Management: Context + Reducer (도메인 단위 적용)
+- State Management: Context + Zustand (도메인 단위 적용)
 - API Layer: Next.js Route Handler 기반 BFF
 - Validation: Zod
 - Build/Deploy: Vercel
