@@ -51,7 +51,7 @@
   "devDependencies": {
     "@chromatic-com/storybook": "^4.0.0",
     "@eslint/eslintrc": "^3",
-    "@faker-js/faker": "^9.6.0",
+    "@faker-js/faker": "^10.6.0",
     "@storybook/addon-docs": "^9.0.5",
     "@storybook/nextjs": "^9.0.5",
     "@storybook/react": "^9.0.5",
@@ -92,5 +92,10 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "overrides": {
+    "next": {
+      "postcss": "^8.5.32"
+    }
   }
 }
